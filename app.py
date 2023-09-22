@@ -1,7 +1,13 @@
 # Import
 from flask import Flask
 from flask_restx import Api, Resource
-from controllers.user_controller import user_namespace
+from controllers.user_controller import user_namespace, GetAllUser;
+
+
+
+# Dependency Injection
+
+
 
 # Define the app Flask
 app = Flask(__name__)
